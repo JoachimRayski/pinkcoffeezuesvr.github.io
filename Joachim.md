@@ -1,1 +1,8 @@
-Ramble.
+My name is Joachim Rayski and I was one of the programmers for Zeus VR.
+Zeus VR is a virtual reality fighting action game, where you fight off progressively bigger waves of enemies.
+
+One of the features I worked on for the game was the enemy AI system. The system works by using a main enemy manager class to spawn, choose and activate different enemy types. I also designed it in a way that would be easy to use and modify by other members of the team not profficient in programming. For example, designers can decide where the spawn points are by just adding empty objects as children of the manager and moving them around. They can also manipulate various variables in the editor, such as the time it takes for the manager to go from one enemy to another to activate them or the number of waves and how many enemies each one has.
+
+I implemented 3 types of enemies in the game. There are Chargers, which is a type of enemy that charges in the player's direction, stops after it gets within a specified distance and launches an attack swinging his sword at the player. The second enemy type are Shooters, which face the player and launch arrow projectiles from a distance and after the projectiles get within a specified distance from the player, they activate a slow-motion effect. Lastly, there's Zeus, who after a wave ends, charges and launches a lightning bolt at the player, without any slow motion effect, so that the player can realistically only block it with his shield.
+
+I also did some work on other aspects, such as the player controller and created the menu and player/enemy damage systems.
